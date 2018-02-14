@@ -293,11 +293,6 @@ bot.on('message', msg => {
             msg.reply("can't wake up");
         }
 
-        if ((msg.content === ("i want to die")) || (msg.content === ("kill me"))) {
-            msg.reply(":bleach: here you go, drink this");
-        }
-
-
         // -- TESTING AREA -- TESTING AREA -- TESTING AREA -- TESTING AREA -- TESTING AREA --
         if (msg.content === ("author")) {
             msg.reply(msg.author);
